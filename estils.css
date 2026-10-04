@@ -38,3 +38,10 @@ a:hover{
 li:first-child {
     font-weight: bold;
 }
+p::before {
+  content: "👋 ";
+}
+
+p::after {
+  content: " 🏁";
+}
